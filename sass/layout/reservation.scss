@@ -1,0 +1,55 @@
+section#reservation{
+    width:100%;
+    height:60vh;
+    background-image: url('../images/wood-background-illustration.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    article{
+        width:$layout-desktop-size;
+        margin:auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        div{
+            width:40%;
+
+            h2{
+                color:$red;
+                font-size: 2.5em;
+            }
+            p{
+                color:$white;
+                margin:35px 0;
+                font-size:1.1em;
+            }
+            h3{
+                color:$white;
+                font-family: $text;
+                font-size:1.3em;
+                font-style:italic;
+                font-weight:300;
+                margin:0 0 25px 0;
+            }
+        }
+
+        img{
+            width:60%;
+            transform:scale(1.2);
+        }
+    }
+
+    img.token{
+        position:absolute;
+        bottom:0;
+        left:50%;
+        transform: translate(-50%, 50%);
+    }
+}
