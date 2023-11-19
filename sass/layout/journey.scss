@@ -1,0 +1,59 @@
+section#journey{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: $light-grey;
+    padding:0 0 160px 0;
+    box-sizing: border-box;
+
+    article{
+        width:$layout-desktop-size;
+        display:flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: flex-end;
+        margin:auto;
+
+        div{
+            &:first-child{
+                width:180%;
+                position:relative;
+
+                img{
+                    &:first-child{
+                        width:100%;
+                    }
+
+                    &:last-child{
+                        position:absolute;
+                        left:50%;
+                        top:50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+            }
+
+            &:last-child{
+                display:flex;
+                flex-flow: column nowrap;
+                justify-content: flex-end;
+                align-items: flex-end;
+                margin:0 0 0 30px;
+
+                h2{
+                    color:$red;
+                    font-size:1.75em;
+                    margin:25px 0;
+                    text-align:left;
+                    text-transform: capitalize;
+                }
+
+                p{
+                    color:$brown;
+                    text-align:right;
+                }
+            }
+        }
+    }
+}
