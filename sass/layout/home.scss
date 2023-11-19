@@ -8,6 +8,7 @@ section#home {
     background-size: cover;
     padding:0 0 20vh 0;
     box-sizing: border-box;
+    z-index:6;
 
     header{
         width:100%;
@@ -33,9 +34,8 @@ section#home {
         box-sizing: border-box;
 
         div.content{
-            width:100%;
-            padding:0 250px;
-            box-sizing: border-box;
+            width:$layout-desktop-size;
+            margin:2vh auto 0 auto;
 
             h1{
                 color:$white;
