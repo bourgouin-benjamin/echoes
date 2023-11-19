@@ -17,7 +17,7 @@ section#journey{
 
         div{
             &:first-child{
-                width:180%;
+                width:50%;
                 position:relative;
 
                 img{
@@ -35,6 +35,7 @@ section#journey{
             }
 
             &:last-child{
+                width:50%;
                 display:flex;
                 flex-flow: column nowrap;
                 justify-content: flex-end;
