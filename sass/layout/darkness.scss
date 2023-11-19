@@ -1,0 +1,29 @@
+section#darkness{
+    width:100%;
+    height:70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/wavy-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+
+    article{
+        width: $layout-desktop-size;
+        margin:auto;
+        margin:-15vh 0 0 0;
+
+        h2,
+        p{
+            color:white;
+            text-align:center;
+            font-size: 1.15em;
+        }
+
+        h2{
+            font-size:1.6em;
+            margin:0 0 25px 0;
+        }
+    }
+}
